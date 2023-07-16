@@ -12,6 +12,7 @@ function table(dados) {
     dados.forEach(element => {
         const tr = document.createElement('tr');
         const img = document.createElement('img');
+        const span = document.createElement('span');
 
         tr.setAttribute('class', `${(element.category).toLowerCase()}`);
         tabela.appendChild(tr);
@@ -29,8 +30,11 @@ function table(dados) {
 
         const score = document.createElement('td');
         text = document.createTextNode(`${(element.score)} / 100`);
-        score.appendChild(text);
         tr.appendChild(score);
+
+        span.setAttribute('style', "color: black");
+        score.appendChild(span);
+        span.appendChild(text);
 
         media = media + element.score;
         console.log(media);
