@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](assets\images\ScreenShotSumary.jpg)
-![](assets\images\ScreenShotSumaryMobil.jpg)
+![](./assets/images/ScreenShotSumary.jpg)
+![](./assets/images/ScreenShotSumaryMobil.jpg)
 
 ## My process
 
